@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img {
+	@apply outline-none border-none select-none;
+  }
+  
+  img::selection {
+	@apply bg-transparent;
+  }
